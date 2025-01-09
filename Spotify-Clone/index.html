@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/5899076747.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <!--icons area -->
+      <div class="logo">
+        <span><i class="fa-brands fa-spotify"></i></span>
+      </div>
+
+      <!-- middle-part area -->
+      <div class="middle-part">
+        <div class="home">
+          <span> <i class="fa-solid fa-house"></i></span>
+        </div>
+        <div class="search-bar">
+          <span><i class="fa-solid fa-search"></i></span>
+          <input type="search" placeholder="What do you want to play?" />
+
+          <span><i class="fa-regular fa-folder"></i> </span>
+        </div>
+      </div>
+
+      <!-- login area -->
+      <div class="login-signup">
+        <a href="#"><p>Sign up</p></a>
+        <button>Log in</button>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <section>
+      <!-- Side-Section -->
+      <aside>
+        <div class="aside-header-box">
+          <div class="aside-header">
+            <div class="header-left">
+              <span><i class="fa-solid fa-chart-simple"></i></span>
+              <span><p>Your Library</p></span>
+            </div>
+            <div class="header-right">
+              <p>+</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- scroll-container -->
+        <div class="aside-scroll-container scroll-container">
+          <div class="content-wrapper">
+            <div class="scroll-content">
+              <h4>Create your first playlist</h4>
+              <p>It's easy,we'll help you</p>
+              <button>Create Playlist</button>
+            </div>
+            <div class="scroll-content">
+              <h4>Let's find some podcast to follow</h4>
+              <p>we'll keep you updated on new episodes</p>
+              <button>Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- aside footer -->
+        <div class="aside-footer">
+          <ul>
+            <li>Legal</li>
+            <li>Safety&Privacy Center</li>
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+            <li>About Ads</li>
+            <li>Accessibility</li>
+          </ul>
+          <a href="#"><p>Cookies</p></a>
+          <button>
+            <span><i class="fa-solid fa-globe"></i></span>English
+          </button>
+        </div>
+      </aside>
+
+      <!-- Main-Content Section -->
+      <main class="scroll-container">
+        <div class="main-scroll-container">
+          <!-- content area 1 -artist -->
+          <div class="main-content-box">
+            <div class="content-heading">
+              <h2>Popular artists</h2>
+              <a href="#"><p>Show all</p></a>
+            </div>
+            <div class="details-box">
+              <!-- artist card details -->
+              <div class="content-details">
+                <img
+                  class="card-round-img"
+                  src="/Spotify-Clone/images/artist/pritam.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Pritam</h4>
+                <p>Artist</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-round-img"
+                  src="/Spotify-Clone/images/artist/arjith.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Arjith Singh</h4>
+                <p>Artist</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-round-img"
+                  src="/Spotify-Clone/images/artist/sachin jigar.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Sachin Jigar</h4>
+                <p>Artist</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-round-img"
+                  src="/Spotify-Clone/images/artist/ar rahman.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>A.R Rahman</h4>
+                <p>Artist</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-round-img"
+                  src="/Spotify-Clone/images/artist/vishal.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Vishal Shekhar</h4>
+                <p>Artist</p>
+              </div>
+              <!-- //card-details end// -->
+            </div>
+          </div>
+          <!--........ popular-albums........ -->
+          <div class="main-content-box">
+            <div class="content-heading">
+              <h2>Popular albums and singles</h2>
+              <a href="#"><p>Show all</p></a>
+            </div>
+            <div class="details-box">
+              <!-- artist card details -->
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/albums/glory.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>GLORY</h4>
+                <p>Yo Yo Honey Singh</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/albums/aashiqu 2.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Aashiqui 2</h4>
+                <p>Mithoon, Ankit Tiwari Jeet Gannguli</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/albums/yeh jawaani.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Yeh jawaani Hai Deewani</h4>
+                <p>Pritam</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/albums/who.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Who (Remixes)</h4>
+                <p>Jimin</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/albums/making memories.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <h4>Making Memories</h4>
+                <p>Karan Aujila,Ikky</p>
+              </div>
+              <!-- //card-details end// -->
+            </div>
+          </div>
+          <!-- .........Radio Block ...................-->
+          <div class="main-content-box">
+            <div class="content-heading">
+              <h2>Popular radio</h2>
+              <a href="#"><p>Show all</p></a>
+            </div>
+            <div class="details-box">
+              <!-- artist card details -->
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/radio/arjith radio.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>With Sachin-Jigar,Amit Trivedi,Mithoon and more</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/radio/diljith.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>With Karan Aujla Shubh,Sidhu Moose Wala and more</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/radio/alka.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>With Abhijeet,Jatin-Latin,Kumar...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/radio/shreya ghoshal.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>With A.R. Rahman,Vishal-Shekhar,At...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/radio/kk.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>With Pritam,Mohit Chauhan,Armaan...</p>
+              </div>
+              <!-- //card-details end// -->
+            </div>
+          </div>
+          <!-- .............Featured chart........... -->
+          <div class="main-content-box">
+            <div class="content-heading">
+              <h2>Featured Charts</h2>
+              <a href="#"><p>Show all</p></a>
+            </div>
+            <div class="details-box">
+              <!-- artist card details -->
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/charts/global.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>Your weekly update of the most playe...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/charts/india.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Your weekly update of the most playe...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/charts/top 50.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Your daily update of the most playe...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/charts/top 50 india.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Your daily update of the most playe...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/charts/viral.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>Your daily update of the most playe...</p>
+              </div>
+              <!-- //card-details end// -->
+            </div>
+          </div>
+          <!-- ..........indias best............ -->
+          <div class="main-content-box">
+            <div class="content-heading">
+              <h2>India's Best</h2>
+              <a href="#"><p>Show all</p></a>
+            </div>
+            <div class="details-box">
+              <!-- artist card details -->
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/best/pop icons.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>Hottest tracks from your favourite I-P...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/best/bollywood.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Bollywood Central,jab baje toh seedh...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/best/ultimate 101.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Ultimate 101 Punjabi Hits with...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/best/kollywood.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+
+                <p>Finest collection of Tamil Music from...</p>
+              </div>
+
+              <div class="content-details">
+                <img
+                  class="card-square-img"
+                  src="/Spotify-Clone/images/best/tollywood.jpg"
+                  alt="pritam"
+                />
+                <div class="play-btn">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p>Finest set of Telugu Music from...</p>
+              </div>
+              <!-- //card-details end// -->
+            </div>
+          </div>
+          <!-- ......................foooter.............. -->
+          <div class="main-footer">
+            <div class="content-box">
+              <div class="content">
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Jobs</p>
+                <p>For the Record</p>
+              </div>
+              <div class="content">
+                <h4>Communities</h4>
+                <p>For Artist</p>
+                <p>Developers</p>
+                <p>Advertising</p>
+                <p>Investors</p>
+                <p>Vendors</p>
+              </div>
+              <div class="content">
+                <h4>Useful links</h4>
+                <p>Support</p>
+                <p>Free Mobile App</p>
+              </div>
+              <div class="content">
+                <h4>Spotify Plans</h4>
+                <p>
+                  Premium <br />
+                  Individual
+                </p>
+                <p>Premium Duo</p>
+                <p>Premium Family</p>
+                <p>
+                  Premium <br />
+                  Student
+                </p>
+                <p>Spotify Free</p>
+              </div>
+              <div class="content">
+                <div class="social-icon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="social-icon">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-icon">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+              </div>
+            </div>
+            <div class="copy-right">
+              <p>&copy;2025 Spotify AB</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="banner">
+        <div class="banner-items">
+          <div class="text">
+            <p>Preview of Spotify</p>
+            <h5>
+              Sign up to get unlimited songs and podcast with ocassional ads.No
+              credit card needed.
+            </h5>
+          </div>
+          <button>Sign up free</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
