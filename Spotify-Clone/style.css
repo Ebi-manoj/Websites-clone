@@ -155,18 +155,19 @@ nav {
 }
 /* .......................main section................... */
 section {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 8px;
   row-gap: 0;
   padding: 0 0.5rem 0.5rem;
-  height: 70vh;
 }
 
 aside {
   position: relative;
   background-color: var(--base-bg);
   border-radius: 10px;
+  height: 80vh;
 }
 
 /* Aside Header section */
@@ -318,6 +319,7 @@ main {
   );
   overflow-y: scroll;
   overflow-x: hidden;
+  height: 80vh;
 }
 .main-scroll-container {
   width: 100%;
@@ -464,8 +466,9 @@ main {
 }
 .banner {
   padding: 0.8rem;
+  padding-right: 1.5rem;
   background: linear-gradient(to right, #af2997, #519bf5);
-  height: 4rem;
+  height: 4.3rem;
   width: 100%;
   grid-column: 1 / span 2;
   margin-top: 8px;
@@ -474,4 +477,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--text-base);
+}
+.banner-items p {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.banner-items button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
 }
