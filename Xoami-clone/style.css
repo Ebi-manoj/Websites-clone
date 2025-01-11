@@ -171,3 +171,136 @@ header {
 header:hover .header-page-btn {
   opacity: 1;
 }
+
+/* ...................feature section............. */
+#features {
+  padding: 7% 4% 0;
+  position: relative;
+}
+#features h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+#features ul {
+  list-style-type: none;
+  height: 2rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#features ul li {
+  height: 100%;
+  cursor: pointer;
+}
+.featured-li-active {
+  font-weight: 600;
+  border-bottom: 2px solid var(--text-highlight);
+  color: var(--text-highlight);
+}
+.featured-content {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.featured-top {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.ft-content-img {
+  flex-basis: 50%;
+  width: 100%;
+  height: 20rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+}
+.featured-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.ft-content-text {
+  flex-basis: 50%;
+  width: 100%;
+  height: 20rem;
+  background-color: var(--base-bg);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-base);
+}
+
+.ft-content-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+.ft-content-text p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.btn-learn2 {
+  padding: 6px 20px;
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: all 0.3s ease-out;
+}
+
+.featured-bottom {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+.featured-btm-items {
+  position: relative;
+  flex-basis: 25%;
+  padding: 1rem 0 5rem;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.featured-btm-items img {
+  width: 9rem;
+  height: 9rem;
+  margin-bottom: 1rem;
+}
+.featured-btm-items h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.featured-btm-items span p {
+  display: inline;
+  margin-right: 5px;
+}
+.price-text {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.og-price-text {
+  font-size: 1rem;
+  color: #c0c0c0;
+  text-decoration: line-through;
+}
+
+.featured-top:hover .ft-content-img img {
+  transform: scale(1.1);
+}
+.featured-top:hover .ft-content-text .btn-learn2 {
+  opacity: 1;
+  transform: translateY(0);
+}
