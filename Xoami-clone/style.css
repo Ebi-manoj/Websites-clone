@@ -325,3 +325,82 @@ header:hover .header-page-btn {
 .featured-btm-items:hover img {
   transform: scale(1.05);
 }
+/* ..................offer section.................... */
+#offer {
+  position: relative;
+  margin-top: 4rem;
+  padding: 1% 4%;
+}
+#offer h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text-base);
+  margin-bottom: 3rem;
+}
+.offer-contents {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.offer-content {
+  background-color: var(--base-white);
+  border-radius: 10px;
+  padding: 1rem;
+  padding-bottom: 0;
+  position: relative;
+  overflow: hidden;
+  height: 24rem;
+}
+.offer-img-part {
+  position: relative;
+  width: 100%;
+  height: 16rem;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+}
+.offer-img-part img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.offer-text-part {
+  text-align: center;
+  position: relative;
+}
+.offer-text-part h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.offer-text-part p {
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+.offer-text-part button {
+  margin-top: 1rem;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  transition: all 0.2s;
+  opacity: 1;
+}
+.section-page-btn {
+  z-index: 2;
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.offer-content:hover .offer-text-part p {
+  opacity: 0;
+}
+.offer-content:hover .offer-text-part button {
+  opacity: 1;
+  top: 0;
+}
+.offer-content:hover .offer-img-part img {
+  transform: scale(1.05);
+}
