@@ -266,18 +266,21 @@ header:hover .header-page-btn {
 .featured-btm-items {
   position: relative;
   flex-basis: 25%;
-  padding: 1rem 0 5rem;
+  padding: 1rem 2rem 3rem;
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
 }
 .featured-btm-items img {
   width: 9rem;
   height: 9rem;
   margin-bottom: 1rem;
+  transition: all 0.2s;
 }
 .featured-btm-items h3 {
   font-size: 1.4rem;
@@ -286,6 +289,10 @@ header:hover .header-page-btn {
 .featured-btm-items span p {
   display: inline;
   margin-right: 5px;
+}
+.featured-btm-items span p:first-child {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .price-text {
   font-size: 1.2rem;
@@ -296,11 +303,25 @@ header:hover .header-page-btn {
   color: #c0c0c0;
   text-decoration: line-through;
 }
-
+.featured-btm-items button {
+  position: absolute;
+  bottom: 15%;
+  transition: all 0.3s;
+}
 .featured-top:hover .ft-content-img img {
   transform: scale(1.1);
 }
 .featured-top:hover .ft-content-text .btn-learn2 {
   opacity: 1;
   transform: translateY(0);
+}
+.featured-btm-items:hover .btn-learn2 {
+  opacity: 1;
+  bottom: 28%;
+}
+.featured-btm-items:hover span p {
+  opacity: 0;
+}
+.featured-btm-items:hover img {
+  transform: scale(1.05);
 }
