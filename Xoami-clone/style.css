@@ -404,3 +404,58 @@ header:hover .header-page-btn {
 .offer-content:hover .offer-img-part img {
   transform: scale(1.05);
 }
+#explore {
+  margin-top: 4rem;
+  overflow: hidden;
+}
+#explore h1 {
+  font-size: 2rem;
+  color: var(--text-base);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.explore-container {
+  width: 200%;
+  display: flex;
+  gap: 1.5rem;
+  transform: translateX(-16%);
+}
+.explore-content {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: var(--base-white);
+  display: flex;
+  flex-direction: column;
+  width: 42rem;
+  height: 32rem;
+}
+.explore-cont-img {
+  position: relative;
+  overflow: hidden;
+  flex-basis: 65%;
+  width: 100%;
+  height: 100%;
+}
+.explore-cont-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.explore-cont-text {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  position: relative;
+}
+.explore-cont-text p {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-base);
+  margin-bottom: 0.5rem;
+}
+.explore-cont-text button {
+  position: absolute;
+  margin: 0 auto;
+  opacity: 1;
+  top: 50%;
+  left: 42%;
+}
