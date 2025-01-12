@@ -467,3 +467,46 @@ header:hover .header-page-btn {
   opacity: 1;
   top: 50%;
 }
+/* ................SUPPORT................. */
+#support {
+  margin-top: 4rem;
+  position: relative;
+  padding: 0 5%;
+}
+#support h1 {
+  font-size: 2rem;
+  color: var(--text-base);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.support-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.support-content {
+  text-align: center;
+  padding: 0 7% 2%;
+  cursor: pointer;
+}
+.support-content i {
+  font-size: 2.5rem;
+  color: var(--bar-hightlight);
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+}
+.support-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+.support-content p {
+  font-size: 1rem;
+  color: #3e3d3d;
+  transition: all 0.5s;
+}
+.support-content:hover i,
+.support-content:hover h2,
+.support-content:hover p {
+  color: var(--text-highlight);
+}
